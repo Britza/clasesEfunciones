@@ -11,6 +11,10 @@ open abstract class Seleccion {
         this.apelido = apelido
         this.edade = edade
     }
+    abstract fun concentrarse(tempoConcentracion : Int):Int
+
+    abstract fun viaxar(viaxa:String):String
+
 
 
 

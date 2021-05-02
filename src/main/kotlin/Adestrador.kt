@@ -10,4 +10,14 @@ class Adestrador:Seleccion {
     ) {
         this.idFederacion = idFederacion
     }
+    override fun concentrarse(tempoConcentracion:Int) : Int{
+        println("Concentrase a seleccion e o tempo de concentracion e: " + tempoConcentracion)
+        return 0;
+    }
+
+    override fun viaxar(viaxa:String) : String {
+        println("Viaxa o adestrador a " + viaxa)
+        return viaxa;
+    }
+
 }
